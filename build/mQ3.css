@@ -1,0 +1,33 @@
+#line1 {
+    width:220px;
+}
+#Dbody {
+    width:250px;
+}
+#font-choice {
+    margin-left:40px;
+}
+#logo {
+    width:30px;
+}
+#searchbox {
+    width:259px;
+}
+li {
+    width:220px;
+}
+ul {
+    line-height: 20px;;
+}
+#audio {
+    margin-left:12%;
+}
+#foot {
+    width:250px;
+
+}
+#search-button {
+    margin-left:20px;
+    background-color: transparent;
+    border:none;
+}

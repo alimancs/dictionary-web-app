@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" media="(max-width:601px)" href="mQ1.css">
+    <link rel="stylesheet" type="text/css" media="(max-width:451px)" href="mQ2.css">
+    <link rel="stylesheet" type="text/css" media="(max-width:346px)" href="mQ3.css">
+    <title>Dictionary By Ali</title>
+</head>
+<body>
+    <div id="Dbody">
+       
+        <div id="header">
+            <img src="IMG_8338.PNG" id="logo">
+            <div id="space"></div>
+            <span id="font-choice">Helvet</span>
+            <button onmouseout="dictionary.hide('#font-option')"  onmouseover="dictionary.show('#font-option')" id="select">∨</button>
+            <div id="divider">|</div>
+            <button onclick="dictionary.switchMode()" id="mode-button">
+                <div id="circle" ></div>
+            </button>
+            <img id="mode" src="IMG_8335.PNG">
+            <span id="font-option">Not available</button>
+             
+        </div>
+        <div id="sbox">
+            <div id="searchbox">
+                <input placeholder="Enter keyword here.."  id="search-input" type="fromtext" >
+                <button onclick="dictionary.check()"  id="search-button" ><span id="clear"></span><img id="search-icon" src="Search black.PNG"></button>
+            </div>
+        </div>
+    
+        <div id="body-box">
+            <div id="infbox">
+                <div id="word-box">
+                    <div id="word">
+                        <h1 id="wrd">keyword</h1>
+                        <span id="sound">/uthidekd/</span>
+                    </div>
+                    <button onclick="dictionary.playAudio()" id="audio">▶</button>
+                </div>
+            </div> 
+            <div id="defbox" >
+                <div id="def-head">
+                    <span id="title">noun</span><div id="line1"></div>
+                </div>
+                <h3 id="mtt">Meaning</h3>
+                <ul id="firstdef">
+                    <li class="noun">a keybored has it uses, relatthswbs bvsvgeer hsghjdkj kjdujhd a keybored has it uses, relatthswbs bvsvgeer 
+                        a keybored has it uses, relatthswbs bvsvgeer  a keybored has it uses, relatthswbs bvsvgeer a keybored </li>
+                    <li class="noun">a keybored has it uses, relatthswbs bvsvgeer </li>
+                    <li class="noun">a keybored has it uses, relatthswbs bvsvgeer </li>
+                    <li class="noun">a keybored has it uses, relatthswbs bvsvgeer </li>
+                    <li class="noun">a keybored has it uses, relatthswbs bvsvgeer </li>
+                </ul>
+                <h4 id="syn">Synonyms:<span id="syword"></span></h4> 
+                <h4 id="atyn">antonyms:<span id="atword"></span></h4> 
+            </div>
+            <div id="defbox" >
+                <div id="def-head">
+                <span id="title">verb</span><div id="line1"></div>
+                </div>
+                <h3 id="mtt">Meaning</h3>
+                <ul id="seconddef">
+                    <li class="verb">a keybored has it uses, relatthswbs bvsvgeer hsghjdkj kjdujhd a keybored has it uses, relatthswbs bvsvgeer 
+                        a keybored has it uses, relatthswbs bvsvgeer  a keybored has it uses, relatth relatthswbs bvsvgeer  </li>
+                    <li class="verb">a keybored has it uses, relatthswbs bvsvgeer </li>
+                    <li class="verb">a keybored has it uses, relatthswbs bvsvgeer </li>
+                    <li class="verb">a keybored has it uses, relatthswbs bvsvgeer </li>
+                </ul>
+            </div>
+        </div>
+        <div id="empty-box">
+            <img src="page_45.png" id="empty-img">
+            <div id="loader"></div>
+            <span id="nf">Not Found 🏳<br>
+            try a different word maybe</span>
+        </div>
+       <div id="foot"><span>@2023 alimamcs. all right reseved</span></div>
+    </div>
+    
+  <script src="script.js"></script>  
+</body>
+</html>
